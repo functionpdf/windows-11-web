@@ -1,0 +1,101 @@
+
+body {
+    background-image: url(../resource/win11light.jpg);
+    background-color: black;
+    height: auto;
+}
+
+.apps {
+    padding: 10px;
+    border: none;
+    background: none;
+    border-radius: 3px;
+}
+
+.apps:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.appIcons {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0%;
+}
+
+.appLabel {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    inline-size: 70px;
+    overflow-wrap: break-word;
+}
+
+p {
+    line-height: 12px;
+}
+
+.taskbarIcons:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+    
+}
+
+.taskbarApps {
+    padding: 10px;
+    border: none;
+    background: none;
+    border-radius: 2px;
+    height: 25px;
+    vertical-align: baseline;
+    align-items: center;
+}
+
+.taskbarIcons {
+    height: 25px;
+    padding: 5px;
+    margin: none;
+    border-radius: 2px;
+    vertical-align: baseline;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: rgb(30, 30, 30);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+}
+
+#searchBar {
+    height: 35px;
+    background-color: rgb(48, 48, 48);
+    margin-bottom: 8px;
+    border-radius: 20px;
+    vertical-align: 13px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    border: none;
+    transition: 0.4s;
+}
+
+#searchBar:hover {
+    background-color: rgb(54, 54, 54)
+}
+
+#searchBar:focus {
+    background-color: rgb(39, 135, 237);
+}
+
+#searchIcon {
+    height: 15px;
+    vertical-align: baseline;
+}
+
