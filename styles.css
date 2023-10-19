@@ -1,6 +1,6 @@
 
 body {
-    background-image: url(../resource/win11light.jpg);
+    background-image: url(/resource/win11light.jpg);
     background-color: black;
     height: auto;
 }
@@ -23,6 +23,13 @@ body {
     margin: 0%;
 }
 
+#cspLogo {
+    width: 65px;
+    height: 65px;
+    padding: 0px;
+    margin: 0%;
+}
+
 .appLabel {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -38,13 +45,17 @@ p {
     line-height: 12px;
 }
 
+#edgeWindow {
+    visibility: hidden;
+}
+
 .taskbarIcons:hover {
     background-color: rgba(255, 255, 255, 0.10);
     
 }
 
 .taskbarApps {
-    padding: 10px;
+    padding: 7px;
     border: none;
     background: none;
     border-radius: 2px;
@@ -70,6 +81,8 @@ footer {
     width: 100%;
     justify-content: left;
     align-items: center;
+    border-top: 1.5px solid rgb(64, 64, 64);
+    display: table-cell;
 }
 
 #searchBar {

@@ -1,2 +1,5 @@
-document.getElementById("edge").onclick = () => {
+setEventListeners = () => {
+    document.getElementById("chrome").addEventListener("click", () => {
+        this.openApp(Chrome);
+    });
 }
