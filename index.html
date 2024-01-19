@@ -6,14 +6,21 @@
     </head>
     <body>
         <script src="script.js"></script>
-        <button id="edge" title="Browse the... Web?" class="apps">
+        <button id="openEdgeWindow" title="Browse the... Web?" class="apps">
             <img class="appIcons" src="./resources/edge logo.png">
             <p class="appLabel">
                 Microsoft Edge
             </p>
         </button>
+        <div id="edge" class="appWindow">
+            <div id="edgeContent">
+                <span class="close closeWindow">&times;</span>
+                <h2>Microsoft Edge</h2>
+                <iframe id="bingpage"    src="https://www.bing.com/" title="Bing" allowfullscreen="true"></iframe>
+            </div>
+        </div>
         <div></div>
-        <button id="openChromeWindow" title="Access The Internet(and other things)" class="apps">
+        <button id="openChromeWindow" title="WHAT DOES CAO XIZHEN DO?" class="apps">
             <img class="appIcons" src="./resources/chrome icon.png">
             <p class="appLabel">
                 Google Chrome
@@ -27,7 +34,7 @@
             </div>
         </div>
         <div></div>
-        <button id="openFileExplorer" title="About CXZ" class="apps">
+        <button id="openFileExplorer" title="About CAO XIZHEN" class="apps">
             <img class="appIcons" src="./resources/fileexplorer.webp">
             <p class="appLabel">
                 File Explorer
@@ -48,7 +55,7 @@
             </p>
         </button>
         <div></div>
-        <button id="openGitHub" title="view source code" class="apps">
+        <button id="openGithub" title="view source code" class="apps">
             <img class="appIcons" src="./resources/github icon.png">
             <p class="appLabel">
                 Github
@@ -69,5 +76,7 @@
         <button class="taskbarApps" id="chromeTB">
             <img class="taskbarIcons" src="./resources/chrome icon.png">
         </button>
+
+        <p id="signoff">&copy;CAO XIZHEN 2023</p>
     </footer>
 </html>

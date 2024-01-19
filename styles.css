@@ -61,6 +61,7 @@ p {
     border-radius: 2px;
     vertical-align: baseline;
     transition: 0.3s;
+    float: left;
 }
 
 footer {
@@ -113,6 +114,23 @@ footer {
     border: 1px solid #ccc;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border-radius: 8px;
+}
+
+#edgeContent {
+    padding: 20px;
+}
+
+#bingpage {
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 95%;
+    width: 99.5%;
 }
 
 #chromeContent {
@@ -126,4 +144,14 @@ footer {
 
 #fileExplorerContent {
     padding: 20px;
+}
+
+#signoff {
+    text-align: right;
+    float: inline-end;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px;
+    padding-right: 10px;
 }
