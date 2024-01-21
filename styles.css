@@ -1,8 +1,11 @@
 
 body {
-    background-image: url(/resource/win11light.jpg);
+    background-image: url(../assets/win11light.jpg);
     background-color: black;
-    height: auto;
+    height: 100vh; 
+    margin: 0; 
+    background-size: cover;
+    background-position: center;
 }
 
 .apps {
@@ -33,6 +36,7 @@ body {
     margin: 0%;
     inline-size: 70px;
     overflow-wrap: break-word;
+    text-shadow: 0px 0px 4.5px rgba(0, 0, 0, 0);
 }
 
 p {
@@ -122,6 +126,22 @@ footer {
 }
 
 #bingpage {
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 95%;
+    width: 99.5%;
+}
+
+#githubPage {
+    padding: 20px;
+}
+
+#githubWindow {
     position: absolute;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
